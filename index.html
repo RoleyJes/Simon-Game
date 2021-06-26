@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@700&family=Pacifico&family=Ultra&display=swap" rel="stylesheet">
+<body>
+  <p class="simon">Simon(model) Game</p>
+  <a class="rules-tag" href="#rules-title">How to Play</a>
+  <div>
+    <p class="memory">Put your memory to the test!</p>
+    <h1 id="level-title">Press Any Key on Your Keyboard to Start</h1>
+    <div class="container">
+      <div class="row">
+
+        <div type="button" id="green" class="btn green">
+
+        </div>
+
+        <div type="button" id="red" class="btn red">
+
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div type="button" id="yellow" class="btn yellow">
+
+        </div>
+        <div type="button" id="blue" class="btn blue">
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div> 
+    <h2 id="rules-title">How to Play</h2>
+    <ul class="rules-list">
+       <li>Press any button on your keyboard.</li>
+       <li>Click on the button that is flashed.</li>
+       <li>To pass level 2, click on the previous flashed button, then the newly flashed button.</li>
+       <li>To pass level 3, click the previous flashed buttons in the order of the above step before clicking the newly flashed button.</li>
+       <li>Repeat the above step for subsequent levels</li>
+    </ul>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>

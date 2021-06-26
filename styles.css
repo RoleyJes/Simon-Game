@@ -1,0 +1,98 @@
+body {
+  /* text-align: center; */
+  background-color: #7952B3;
+}
+
+#level-title {
+  font-family: 'Kalam', cursive;
+  font-size: 2.8rem;
+  margin:  3%;
+  color: #FEF2BF;
+  text-align: center;
+}
+
+#rules-title {
+  font-family: 'Kalam', cursive;
+  font-size: 1.5rem;
+  color: #F0D9E7;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.memory {
+  color: #F0D9E7;
+  font-family: 'Kalam', cursive;
+  font-size: 1.6rem;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.rules-list {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5rem;
+  color: #F0D9E7;
+  margin:0 0 4% 2%;
+  text-align: left;
+}
+
+.rules-tag {
+  font-family: 'Baloo 2', cursive;
+  color: #F0D9E7;
+  font-size: 1rem;
+  text-align: left;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.simon{
+  color: #F0D9E7;
+  font-family: 'Ultra', serif;
+  font-size: 1.5rem;
+  /* display: inline-block; */
+  text-align: left;
+  margin-left: 2%;
+
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
